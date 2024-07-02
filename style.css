@@ -128,6 +128,11 @@ h2.titulo{
   text-align: center;
 }
 
+.menu-mobile nav a{
+  background-color: #000;
+  color: black;
+}
+
 h2.titulo span{
   color: #3CA2BE;
 }
@@ -567,6 +572,18 @@ footer .line-footer{
   left: 0;
   z-index: 8888;
   display: none;
+}
+
+.sobre .flex img{
+  height: 50%;
+  width: 50%;
+  text-align: center;
+}
+
+.topo-do-site .img-topo-site img{
+  height: 50%;
+  width: 50%;
+  text-align: center;
 }
 
 
