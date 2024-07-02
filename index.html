@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="midias/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script src="menu.js" defer></script>
     <!--GOOGLE FONTES-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,6 +35,32 @@
                     <button>Contato</button>
                 </a>
             </div>
+
+            <dv class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </dv>
+
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Especialidades</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Projetos</a></li>
+                        <li><a href="#">Contato</a></li>
+
+                    </ul>
+                </nav>
+
+            </div>
+
+            <div class="overlay-menu" id="overlay-menu"> </div>
+            
         </div> 
     </header>
     
@@ -130,13 +157,20 @@
     <footer>
         <div class="interface">
             <div class="line-footer">
-                <div class="logo-footer">
-                    <img src="midias/logo.png" alt="logo">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="midias/logo.png" alt="logo">
+                    </div>
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/viniciusfeitosa12?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://www.youtube.com/channel/UC-hAag-UCAUtCzUbiL6HGYQ"><button><i class="bi bi-youtube"></i></button></a>
+                        <a href="https://www.linkedin.com/in/vinicius-feitosa-7b6267281/"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div>
                 </div>
-                
             </div>
 
-            <div class="line-footer">
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:agenciavisionariosdigital@gmail.com">agenciavisionariosdigital@gmail.com</a></p>
 
             </div>
         </div><!--INTERFACE-->
